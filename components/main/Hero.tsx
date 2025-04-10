@@ -63,14 +63,14 @@ const Hero = () => {
               src="/india.png"
               alt="India Flag"
               width={24}
-              height={4}
+              height={24}
               className="mr-2"
             />
             Based in India
           </h4>
 
           <TextGenerateEffect
-            words="I'm a passionate software developer with experience in web development and machine learning. I enjoy building full-stack apps and solving real-world problems through code. I'm currently pursuing a B.E. in Computer Science and have worked on projects like a collaborative coding platform and a custom Java interpreter. Skilled in Java, Spring Boot, React, and Docker, I'm always looking to learn and improve."
+            words="I'm a passionate software developer with experience in web development and machine learning. I enjoy building full-stack apps and solving real-world problems through code. I'm currently pursuing a B.E. in Computer Science. Skilled in Java, Spring Boot, React, and Docker, I'm always looking to learn and improve."
           />
           <div className="flex flex-col md:flex-row items-center mt-2 z-20">
             <button
