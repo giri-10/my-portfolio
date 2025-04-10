@@ -43,7 +43,7 @@ const MilestoneItem: React.FC<MilestoneProps> = ({ milestones }) => {
           }) => (
             <div key={id} className="relative flex items-start my-8">
               <Image
-                className="absolute top-0 md:left-[20%] sm:w-14 sm:h-14 h-10 w-10 left-[10%] transform -translate-x-1/2  border-border-custom rounded-full "
+                className="absolute top-0 md:left-[20%] sm:w-20 sm:h-16 h-16 w-20 left-[10%] transform -translate-x-1/2 border-border-custom"
                 src={img}
                 alt={title + " Logo"}
                 width={50}

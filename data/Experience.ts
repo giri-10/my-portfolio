@@ -6,7 +6,7 @@ export const ExperienceData = [
     type: MilestoneTypes.Education,
     date: 'December 2021 - June 2025',
     title: 'Bachelor of Engineering in Computer Science',
-    img: '/company-logo/chalmers.webp',
+    img: '/company-logo/mvjce.png',
     organization: 'MVJ College of Engineering',
     location: 'Bengaluru, India',
     gpa: 8.7,
@@ -19,7 +19,7 @@ export const ExperienceData = [
     type: MilestoneTypes.Work,
     date: 'September 2024 - April 2025',
     title: 'AI/ML Intern',
-    img: '/company-logo/bally.png',
+    img: '/company-logo/rooman.png',
     organization: "Rooman Technologies",
     location: 'Bengaluru, India',
     description: [
@@ -39,7 +39,7 @@ export const ExperienceData = [
     type: MilestoneTypes.Work,
     date: 'November 2023 - December 2023',
     title: 'Software Engineering Intern',
-    img: '/company-logo/bally.png',
+    img: '/company-logo/systecks.png',
     organization: "Systecks Solutions",
     location: 'Bengaluru, India',
     description: [

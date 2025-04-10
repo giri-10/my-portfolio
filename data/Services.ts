@@ -25,15 +25,15 @@ export const ServicesData = [
 export const ServicesApps = [
   {
     id: 1,
-    title: 'Jest',
-    icon: '/logo/Jest.svg',
+    title: 'Javascript',
+    icon: '/logo/js.png',
     width: 35,
     height: 70,
   },
   {
     id: 2,
-    title: 'Azure',
-    icon: '/logo/Azure.svg',
+    title: 'Python',
+    icon: '/logo/pyth.png',
     width: 35,
     height: 40,
   },
@@ -81,16 +81,16 @@ export const ServicesApps = [
   },
   {
     id: 9,
-    title: 'Next.js',
-    icon: '/logo/Next.js.svg',
+    title: 'Sql',
+    icon: '/logo/MySQL.svg',
     width: 35,
     height: 40,
   },
   {
     id: 10,
-    title: 'Linux',
-    icon: '/logo/linux.png',
-    width: 40,
+    title: 'postgresql',
+    icon: '/logo/post.png',
+    width: 60,
     height: 60,
   },
 ];

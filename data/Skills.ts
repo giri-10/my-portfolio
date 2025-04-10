@@ -43,7 +43,7 @@ export const SkillsData = [
   {
     id: 6,
     skillName: 'Python',
-    image: '/logo/TypeScript.svg',
+    image: '/logo/pyth.png',
     width: 70,
     height: 70,
     skillLevel: 4,
@@ -70,7 +70,7 @@ export const SkillsData = [
   {
     id: 9,
     skillName: 'Node.js',
-    image: '/logo/Node.js.svg',
+    image: '/logo/node.png',
     width: 70,
     height: 70,
     skillLevel: 4,
@@ -104,7 +104,7 @@ export const SkillsData = [
   {
     id: 13,
     skillName: 'PostgreSQL',
-    image: '/logo/MySQL.svg',
+    image: '/logo/post.png',
     width: 70,
     height: 70,
     skillLevel: 3,
@@ -122,10 +122,17 @@ export const SkillsData = [
   {
     id: 15,
     skillName: 'Postman',
-    image: '/logo/postman.png',
+    image: '/logo/postman1.png',
     width: 70,
     height: 70,
     skillLevel: 4,
   },
-
+  {
+    id: 16,
+    skillName: 'Git',
+    image: '/logo/git1.png',
+    width: 70,
+    height: 70,
+    skillLevel: 4,
+  },
 ];
