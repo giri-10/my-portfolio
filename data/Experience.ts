@@ -18,7 +18,7 @@ export const ExperienceData = [
     id: 2,
     type: MilestoneTypes.Work,
     date: 'September 2024 - April 2025',
-    title: 'AI/ML Intern',
+    title: 'Machine Learning Intern',
     img: '/company-logo/rooman.png',
     organization: "Rooman Technologies",
     location: 'Bengaluru, India',

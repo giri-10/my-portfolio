@@ -4,8 +4,6 @@ import ProjectCard from '../ui/ProjectCard';
 import { projectsData } from '@/data/Projects';
 import { GlobeAltIcon } from '@heroicons/react/24/solid';
 import SectionHeader from '../ui/SectionHeader';
-// import { ProjectCategories } from '@/types';
-// import { Tabs, TabsContent, TabsList, TabsTrigger } from '../ui/Tabs';
 import { useInView } from 'react-intersection-observer';
 
 const Projects = () => {
