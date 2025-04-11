@@ -4,8 +4,8 @@ import ProjectCard from '../ui/ProjectCard';
 import { projectsData } from '@/data/Projects';
 import { GlobeAltIcon } from '@heroicons/react/24/solid';
 import SectionHeader from '../ui/SectionHeader';
-import { ProjectCategories } from '@/types';
-import { Tabs, TabsContent, TabsList, TabsTrigger } from '../ui/Tabs';
+// import { ProjectCategories } from '@/types';
+// import { Tabs, TabsContent, TabsList, TabsTrigger } from '../ui/Tabs';
 import { useInView } from 'react-intersection-observer';
 
 
@@ -14,18 +14,18 @@ const Projects = () => {
     triggerOnce: true,
   });
 
-  const projectsCategories = [
-    ProjectCategories.WebApplication,
-    ProjectCategories.DesktopApplication,
-    ProjectCategories.DevOps,
-  ];
+  // const projectsCategories = [
+  //   ProjectCategories.WebApplication,
+  //   ProjectCategories.DesktopApplication,
+  //   ProjectCategories.DevOps,
+  // ];
 
-  const filterProjectsByCategory = useMemo(() => {
-    return projectsCategories.reduce((acc, category) => {
-      acc[category] = projectsData.filter((project) => project.category === category);
-      return acc;
-    }, {} as Record<ProjectCategories, typeof projectsData>);
-  }, [projectsCategories, projectsData]);
+  // const filterProjectsByCategory = useMemo(() => {
+  //   return projectsCategories.reduce((acc, category) => {
+  //     acc[category] = projectsData.filter((project) => project.category === category);
+  //     return acc;
+  //   }, {} as Record<ProjectCategories, typeof projectsData>);
+  // }, [projectsCategories, projectsData]);
 
   return (
     <section
@@ -35,11 +35,11 @@ const Projects = () => {
     >
       <SectionHeader
         title="My Work Portfolio"
-        subtitle="Showcasing My Projects and Contributions"
+        subtitle="Showcasing My Projects"
         Icon={<GlobeAltIcon />}
       />
 
-      <Tabs defaultValue={ProjectCategories.WebApplication}>
+      {/* <Tabs defaultValue={ProjectCategories.WebApplication}>
         <div className="flex justify-center">
           <TabsList className="inline-flex mb-4 mt-[-24px]">
             {projectsCategories.map((category: ProjectCategories) => (
@@ -77,7 +77,10 @@ const Projects = () => {
             </div>
           </TabsContent>
         ))}
-      </Tabs>
+      </Tabs> */}
+
+
+
     </section>
   );
 };
