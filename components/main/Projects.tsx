@@ -23,6 +23,7 @@ const Projects = () => {
         Icon={<GlobeAltIcon />}
       />
       <div
+        ref={ref}
         className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-6 md:px-12"
       >
         {projectsData.map((project) => (
@@ -34,9 +35,6 @@ const Projects = () => {
             description={project.description}
             githubUrl={project.githubUrl}
             sourceUrl={project.sourceUrl}
-            youtubeUrl={project.youtubeUrl}
-            startDate={project.startDate}
-            endDate={project.endDate}
             technologyStack={project.technologyStack}
             features={project.features}
             challenges={project.challenges}

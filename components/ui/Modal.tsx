@@ -7,8 +7,6 @@ interface ModalProps {
   id: number;
   isOpen: boolean;
   onClose: () => void;
-  startDate: string;
-  endDate: string | null;
   technologyStack: string[];
   description: string;
   title: string;
@@ -34,8 +32,6 @@ const ListSection = ({ title, items }: { title: string; items: string[] }) => (
 const Modal = ({
   isOpen,
   onClose,
-  startDate,
-  endDate,
   technologyStack,
   description,
   title,
@@ -54,7 +50,7 @@ const Modal = ({
         <div className="flex justify-between items-center">
           <div className="text-sm roboto-condensed italic text-gray-300">
             <span>
-              {startDate} to {endDate === null ? 'In Progress' : endDate}
+              Project Details
             </span>
           </div>
           <button
@@ -82,9 +78,15 @@ const Modal = ({
           <p className="text-gray-300 text-center text-sm sm:text-base mb-4 italic font-semibold">
             {description}
           </p>
-          <ListSection title="Features" items={features || []} />
-          <ListSection title="Challenges" items={challenges || []} />
-          <ListSection title="Accomplishments" items={accomplishments || []} />
+          {features && features.length > 0 && (
+            <ListSection title="Features" items={features} />
+          )}
+          {challenges && challenges.length > 0 && (
+            <ListSection title="Challenges" items={challenges} />
+          )}
+          {accomplishments && accomplishments.length > 0 && (
+            <ListSection title="Accomplishments" items={accomplishments} />
+          )}
           <div className="flex flex-wrap gap-1 justify-center">
             {technologyStack.map((tech, index) => (
               <TechnologyChip key={index} tech={tech} />
