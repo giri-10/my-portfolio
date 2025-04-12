@@ -15,7 +15,7 @@ const Footer = () => {
               <h2 className="text-3xl font-semibold mb-2 Welcome-text">
                 U Giridharan
               </h2>
-              <p className="text-gray-400 italic">Fullstack Developer</p>
+              <p className="text-gray-400 italic">Software Engineer</p>
               <p className="text-gray-400 text-sm mt-4">
                 © {currentYear} All rights reserved.
               </p>

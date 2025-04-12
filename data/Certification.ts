@@ -28,7 +28,17 @@ export const CertificationData = [
     description:
       'Master Cypress for web automation, including UI and API testing, with this comprehensive course. Covers JavaScript basics, Cypress framework design, and integration testing.',
     CertificationLink: null,
-    backgroundImg: '/card-background/card-bg-8.jpg',
+    backgroundImg: '/card-background/card-bg-11.jpeg',
+    borderBackground: '/card-border/card-3.svg',
+  },
+  {
+    id: 4,
+    name: 'Cypress - Automation Testing',
+    date: 'In Progress',
+    description:
+      'Master Cypress for web automation, including UI and API testing, with this comprehensive course. Covers JavaScript basics, Cypress framework design, and integration testing.',
+    CertificationLink: null,
+    backgroundImg: '/card-background/card-bg-4.jpg',
     borderBackground: '/card-border/card-3.svg',
   },
 ];
