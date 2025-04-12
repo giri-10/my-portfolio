@@ -40,9 +40,11 @@ const Footer = () => {
                 <FaLinkedinIn />
               </a>
               <a
-                href="mailto:giridharan6433@gmail.com"
+                 href="mailto:giridharan6433@gmail.com"
                 className="text-white text-4xl hover:scale-110 transition-transform mirror"
                 aria-label="me on Email"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <FaEnvelope />
               </a>
