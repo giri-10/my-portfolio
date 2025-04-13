@@ -21,6 +21,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head><link rel="icon" href="/r2d2.png" sizes="any" /></head>
       <body
         className={`${inter.className} bg-[#030014] overflow-y-scroll overflow-x-hidden dark`}
       >
