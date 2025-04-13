@@ -126,7 +126,7 @@ export const projectsData = [
     src: '/project-img/talkspace.png',
     title: 'Talkspace',
     description:
-      'A space-themed web portfolio showcasing my skills, experiences, and projects.',
+      'A chatroom application for real-time communication, allowing users to join chat rooms and communicate with each other.',
     sourceUrl: '',
     githubUrl: 'https://github.com/giri-10/talkspace',
     technologyStack: [
@@ -138,25 +138,22 @@ export const projectsData = [
       'Web Socket',
     ],
     features: [
-      'Utilised Three.JS for a 3D space-themed universe, allowing users to navigate through projects as if traveling through space.',
-      'Dynamic content loading with Framer Motion for smooth, visually captivating transitions between portfolio sections.',
-      'Integrated Vercel analytics for tracking visitor engagement.',
+      'Real-Time Chat: Enables users to join chat rooms and communicate instantly.​',
+      'Responsive UI: Designed for seamless interaction across devices.​',
     ],
     challenges: [
-      'Integrating 3D graphics without compromising site performance and load times.',
-      'Designing an interesting user experience that balances creativity with usability, ensuring visitors can easily find and engage with content.',
+      'Scalability: Ensuring the application can handle increasing user load.​',
+      'Security: Protecting user data and preventing unauthorized access.​',
     ],
     accomplishments: [
-      'Successfully attracted a wider audience, including Star Wars developer fans enhancing engagement with my portfolio based on Vercel analytics.',
-      'Received compliment for the design from HR and developers in the industry.',
-    ],
+      'Full-Stack Development: Built both front-end and back-end components for a complete application.​',    ],
   },
   {
     id: 5,
     src: '/project-img/massageapp.png',
     title: "Employee Management System",
     description:
-      "Developed an web appointment management system for Bally's employees, providing a system for their daily massage appointments.",
+      "A web application for managing employee records, allowing users to create, read, update, and delete employee information.",
     sourceUrl: '',
     githubUrl: 'https://github.com/giri-10/Employee-Management-System',
     technologyStack: [
@@ -168,40 +165,39 @@ export const projectsData = [
 
     ],
     features: [
-      'Internal massage appointment application for employees.',
-      'CMS system for masseuses to create, modify, and delete appointments.',
-      'Booking system for employees to schedule and reschedule their appointments.',
+      'Employee Records Management: Create, read, update, and delete employee information.​',
+      'User-Friendly Interface: Intuitive UI built with React for seamless interaction.​',
+      'Backend Integration: Robust backend powered by Spring Boot for efficient data handling.​',
     ],
     challenges: [
-      "Achieving integration with Bally's existing employee management systems for authentication and scheduling with Okta's API.",
-      'Designing a user-friendly interface.',
-      'First time introduction in frameworks and libraries such as Material UI and Spring Boot.',
+      "Frontend-Backend Integration: Ensuring smooth communication between React and Spring Boot components.",
+      'State Management: Maintaining consistent application state across different components.​',
+      'Data Validation: Implementing checks to ensure data integrity and prevent errors.',
     ],
     accomplishments: [
-      'Received positive feedback for clean and well-structured code, showing a strong willingness to learn and create maintainable and understandable code for future developers.',
-      'The application is used by future students as summer internships, who add more functionality and features.',
-      'The code could have been further improved with more knowledge such as the atom-design principe within frontend or the use of Global Exception Handler in Spring Boot.',
-    ],
+      'Responsive Design: Created a responsive UI that adapts to various screen sizes.​',
+      'Efficient Data Handling: Implemented effective CRUD operations for managing employee data.​',    ],
   },
   {
     id: 6,
     src: '/project-img/blackjack.png',
     title: 'Plant Disease Detection',
     description:
-      'A desktop game of the Blackjack card game, developed to transform the game rules into logic and implement it in Java.',
+      'A web application for detecting plant diseases using machine learning, allowing users to upload images of plants and receive disease predictions.',
     sourceUrl: null,
     githubUrl: 'https://github.com/giri-10/plantdiseasedetection',
-    technologyStack: ['Python', 'Pandas', 'Numpy','Tensorflow', 'Keras', 'Streamlit', 'Flask', 'Jupyter Notebook'],
+    technologyStack: ['Python', 'Pandas', 'Numpy', 'Scikit-learn', 'Keras', 'Streamlit', 'Flask', 'Jupyter Notebook'],
     features: [
-      'GUI for a blackjack game with a dealer and player with Java Swing.',
-      'Basic game logic for card dealing, scoring, and win/loss conditions.',
+      'Image-Based Diagnosis: Utilizes image processing techniques to identify plant diseases from leaf images.​',
+      'Machine Learning Integration: Employs machine learning algorithms for accurate disease classification.​',
     ],
     challenges: [
-      'Old technology stack with Java Swing.',
-      'The game logic was a bit more complex then a normal tictactoe game and required more deep understanding of the rules and strategies of Blackjack.',
+      'Data Collection: Gathering a diverse and representative dataset of diseased and healthy plant images.​',
+      'Model Accuracy: Ensuring high accuracy in disease detection across various plant species.​',
+      'Generalization: Developing a model that generalizes well to new, unseen data.​',
     ],
     accomplishments: [
-      'Developed a fully functional Blackjack game that supports basic gameplay, betting, and score tracking.',
+      'Practical Application: Demonstrated the potential for real-world application in agriculture.​',
     ],
   },
 
@@ -210,8 +206,8 @@ export const projectsData = [
     src: '/project-img/webportfolio1.png',
     title: 'Enhanced Super-Resolution GANs',
     description:
-      'My old personal web portfolio, designed to be a comprehensive showcase of my skills, experiences, and projects.',
-    sourceUrl: 'https://raymond-webportfolio.vercel.app/',
+      'A model for enhancing image resolution using GANs, allowing users to upload low-resolution images and receive high-resolution outputs.',
+    sourceUrl: '',
     githubUrl: 'https://github.com/giri-10/enchanced-super-res-gans',
     technologyStack: [
       'Python',
@@ -222,15 +218,18 @@ export const projectsData = [
       'Streamlit',
     ],
     features: [
-      'UI/UX designed with React.js, highlighting projects through animations and design',
-      'Integrated Google Analytics for visitor insights and engagement tracking.',
+      'Advanced Image Upscaling: Utilizes Enhanced Super-Resolution Generative Adversarial Networks (ESRGAN) to upscale low-resolution images, preserving intricate details.​',
+      'Customizable Training: Offers configurable parameters for tailored model training to suit specific datasets and requirements.',
+      'Dataset Handling: Includes utilities for efficient dataset loading and preprocessing, streamlining the training pipeline.​',
     ],
     challenges: [
-      'Optimizing the portfolio for speed and responsiveness across all devices while maintaining a high-quality, interactive user experience.',
-      'Implementing effective SEO strategies to enhance visibility and reach in search engine results.',
+      'High-Quality Data Requirement: Necessitates a substantial dataset of high-resolution images for effective training and accurate super-resolution.​',
+      'Computational Demand: Training GANs, especially for high-resolution outputs, demands significant computational resources and time.',
+      'Model Stability: Ensuring stability during GAN training to prevent issues like mode collapse and to achieve consistent results.',
     ],
     accomplishments: [
-      'First web portfolio that was used to visualize my skills and projects.',
+      'Model Implementation: Successfully implemented the ESRGAN architecture, enhancing image super-resolution capabilities.​',
+      'Performance Evaluation: Conducted thorough evaluations of model performance, demonstrating significant improvements in image quality over traditional methods.',
     ],
   },
   {
@@ -240,7 +239,7 @@ export const projectsData = [
     description:
       'A space-themed web portfolio showcasing my skills, experiences, and projects.',
     sourceUrl: '',
-    githubUrl: 'https://github.com/RaymondSWE/SciFi-Portfolio',
+    githubUrl: 'https://github.com/giri-10/my-portfolio',
     technologyStack: [
       'Framer',
       'Tailwind CSS',
@@ -260,13 +259,12 @@ export const projectsData = [
       'Designing an interesting user experience that balances creativity with usability, ensuring visitors can easily find and engage with content.',
     ],
     accomplishments: [
-      'Successfully attracted a wider audience, including Star Wars developer fans enhancing engagement with my portfolio based on Vercel analytics.',
-      'Received compliment for the design from HR and developers in the industry.',
+      'Component Reusability: Implemented reusable components to streamline future updates',
+      'Responsive Implementation: Achieved a responsive layout adaptable to various screen sizes.​',
     ],
   },
   {
     id: 9,
-    category: ProjectCategories.WebApplication,
     src: '/project-img/texteditor.png',
     title: 'Validation-Focused Web Application',
     description:
@@ -276,19 +274,16 @@ export const projectsData = [
     technologyStack: [
       'Java', 'Java Swing', 'AWT', "Java I/O",],
     features: [
-      'Client and server-side validation.',
-      'Internationalization and responsive design.',
-      'ClerkAuth for secure authentication.',
-      'Reusable forms and global state management with Redux.',
-    ],
+      'Basic Text Operations: Supports essential functions like cut, copy, paste, and basic font customization.​',
+      'User-Friendly Interface: Designed for simplicity, providing an intuitive environment for text editing.​',
+      'Lightweight Application: Minimalistic design ensures quick and efficient performance.',    ],
     challenges: [
-      'Integrating validation on both client and server.',
-      'Managing multi-language support.',
+      'GUI Implementation: Developing a responsive and intuitive graphical user interface using Java Swing.​',
+      'Functionality Integration: Ensuring seamless integration of text editing features within the GUI.',
     ],
     accomplishments: [
-      'Implemented client and server validation and built scalable, reusable components.',
-      'Integrated ClerkAuth for secure authentication.',
-      'Internationalized the app for multiple languages.',
+      'Enhanced Usability: Implemented features that cater to users seeking a straightforward text editing tool.​',
+      'Code Organization: Structured codebase facilitates easy maintenance and future enhancements.​',
     ],
   },
 ];
