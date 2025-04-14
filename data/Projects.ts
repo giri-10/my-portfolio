@@ -266,9 +266,9 @@ export const projectsData = [
   {
     id: 9,
     src: '/project-img/texteditor.png',
-    title: 'Validation-Focused Web Application',
+    title: 'GUI Text Editor',
     description:
-      'A web app for validating JSON data with client-side (Zod) and server-side (Spring Boot) validation. It features internationalization, reusable forms, and responsive design.',
+      'A simple text editor application built using Java Swing, allowing users to create and edit text files.',
     sourceUrl: null,
     githubUrl: 'https://github.com/giri-10/Text-Editor',
     technologyStack: [

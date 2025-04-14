@@ -91,6 +91,14 @@ const Hero = () => {
                   {link.icon}
                 </a>
               ))}
+              <a
+                href="/resume.pdf"
+                className="flex items-center justify-center bg-gradient-to-r from-purple-500 to-cyan-500 text-white px-4 py-2 rounded-lg hover:scale-105 transition-transform shadow-md"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span className="text-xs sm:text-sm font-semibold">Resume</span>
+              </a>
             </div>
           </div>
         </motion.div>
