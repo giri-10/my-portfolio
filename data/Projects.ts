@@ -40,7 +40,7 @@ export const projectsData = [
   },
   {
     id: 2,
-    src: '/project-img/codemate.png',
+    src: '/project-img/bookhaven.png',
     title: 'BookHaven',
     description:
       'A web application for a bookstore, allowing users to buy and sell books.',
@@ -150,7 +150,7 @@ export const projectsData = [
   },
   {
     id: 5,
-    src: '/project-img/massageapp.png',
+    src: '/project-img/emp.png',
     title: "Employee Management System",
     description:
       "A web application for managing employee records, allowing users to create, read, update, and delete employee information.",
@@ -180,7 +180,7 @@ export const projectsData = [
   },
   {
     id: 6,
-    src: '/project-img/blackjack.png',
+    src: '/project-img/plantdisease.png',
     title: 'Plant Disease Detection',
     description:
       'A web application for detecting plant diseases using machine learning, allowing users to upload images of plants and receive disease predictions.',
@@ -203,7 +203,7 @@ export const projectsData = [
 
   {
     id: 7,
-    src: '/project-img/webportfolio1.png',
+    src: '/project-img/gan.png',
     title: 'Enhanced Super-Resolution GANs',
     description:
       'A model for enhancing image resolution using GANs, allowing users to upload low-resolution images and receive high-resolution outputs.',
