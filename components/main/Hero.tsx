@@ -70,7 +70,7 @@ const Hero = () => {
           </h4>
 
           <TextGenerateEffect
-            words="I'm a passionate software developer with experience in web development and machine learning. I enjoy building full-stack apps and solving real-world problems through code. I'm currently pursuing a B.E. in Computer Science. Skilled in Java, Spring Boot, React, and Docker, I'm always looking to learn and improve."
+            words="I'm a passionate software developer with experience in web development and machine learning. I enjoy building full-stack apps and solving real-world problems through code. I'm currently pursuing a B.E. in Computer Science. Skilled in Java, Spring Boot, React and Python. I'm always looking to learn and improve."
           />
           <div className="flex flex-col md:flex-row items-center mt-2 z-20">
             <button
@@ -167,7 +167,7 @@ const Hero = () => {
         >
           <div className="relative overflow-hidden rounded-3xl bg-[#ffffff10] backdrop-blur-xl border border-border-custom flex justify-center items-center shadow-sm shadow-gray-800 w-[200px] h-[300px] md:w-[250px] md:h-[300px] lg:w-[300px] lg:h-[370px]">
             <Image
-              src="/me.jpg"
+              src="/me.png"
               alt="my Image"
               className="object-cover object-bottom"
               priority
