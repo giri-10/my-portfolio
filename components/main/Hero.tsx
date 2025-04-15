@@ -91,13 +91,69 @@ const Hero = () => {
                   {link.icon}
                 </a>
               ))}
+              
+              {/* Authentic Lightsaber Resume Button - Horizontal like Luke Skywalker's */}
               <a
-                href="/resume.pdf"
-                className="flex items-center justify-center bg-gradient-to-r from-purple-500 to-cyan-500 text-white px-4 py-2 rounded-lg hover:scale-105 transition-transform shadow-md"
+                href="/pdf/resume.pdf"
+                className="group flex items-center justify-center relative z-10"
                 target="_blank"
                 rel="noopener noreferrer"
+                onMouseEnter={() => {
+                  // Play lightsaber sound when available
+                  const audio = new Audio('/lightsaber-on.mp3');
+                  audio.volume = 0.4;
+                  audio.play().catch(e => console.log('Audio play prevented by browser', e));
+                }}
               >
-                <span className="text-xs sm:text-sm font-semibold">Resume</span>
+                {/* Container for proper positioning */}
+                <div className="relative flex items-center">
+                  {/* Lightsaber hilt - simplified and less cluttered */}
+                  <div className="h-9 w-[50px] relative flex flex-row items-center group-hover:animate-[vibrate_0.2s_ease-in-out]">
+                    {/* Left emitter */}
+                    <div className="h-6 w-3 bg-gradient-to-b from-gray-400 to-gray-600 rounded-l-md"></div>
+                    
+                    {/* Grip section - simplified */}
+                    <div className="h-7 w-12 bg-black flex flex-row justify-around items-center relative">
+                      {/* Reduced number of vertical silver lines */}
+                      {Array(4).fill(0).map((_, i) => (
+                        <div key={i} className="h-full w-[2px] bg-gradient-to-b from-gray-400 to-gray-200"></div>
+                      ))}
+                      
+                      {/* Control box with glow effect on hover */}
+                      <div className="absolute top-[-6px] left-4 h-2.5 w-4 bg-gradient-to-r from-gray-400 to-gray-300 rounded-sm border border-gray-600 transition-all">
+                        <div className="absolute inset-0 bg-red-500 opacity-0 group-hover:opacity-100 group-hover:animate-pulse rounded-sm transition-opacity duration-150"></div>
+                      </div>
+                    </div>
+                    
+                    {/* Right emitter */}
+                    <div className="h-7 w-3.5 bg-gradient-to-b from-gray-500 to-gray-300 rounded-r-md"></div>
+                  </div>
+                  
+                  {/* Energy buildup effect that appears briefly when activated */}
+                  <div className="absolute left-[45px] h-[24px] w-0 group-hover:w-[25px] group-hover:animate-[energyBurst_0.3s_ease-out] rounded-full bg-white origin-left opacity-0 group-hover:opacity-100"></div>
+                  
+                  {/* Lightsaber blade with enhanced animation */}
+                  <div className="h-[24px] w-0 group-hover:w-[145px] origin-left bg-green-500 transition-all duration-400 ease-in-out overflow-hidden flex items-center justify-center relative ml-[-2px] rounded-r-full group-hover:animate-[bladeFlicker_2s_ease-in-out_infinite]">
+                    {/* Inner glow */}
+                    <div className="h-[12px] w-full bg-white opacity-80 absolute"></div>
+                    
+                    {/* Text appears when blade extends */}
+                    <span className="opacity-0 group-hover:opacity-100 text-black font-bold text-xs tracking-wider transition-opacity duration-500 delay-200 z-20 whitespace-nowrap px-3 group-hover:animate-[textGlow_1.5s_ease-in-out_infinite]">
+                      <b>RESUME</b>
+                    </span>
+                    
+                    {/* Enhanced outer glow effect */}
+                    <div className="absolute inset-0 w-full h-full bg-green-500 blur-[8px] opacity-70 group-hover:animate-[glowPulse_1.5s_ease-in-out_infinite]"></div>
+                    
+                    {/* Unstable blade edge effect */}
+                    <div className="absolute right-0 h-full w-[3px] bg-white opacity-0 group-hover:opacity-70 group-hover:animate-[bladeEdgeFlicker_0.5s_ease-in-out_infinite]"></div>
+                  </div>
+                </div>
+                
+                {/* Hover instruction - Star Wars style */}
+                {/* <span className="absolute -bottom-6 text-xs text-gray-400 opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap font-[Orbitron]">
+                  May the Force be with you
+                </span> */}
               </a>
             </div>
           </div>
