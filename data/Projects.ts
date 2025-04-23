@@ -52,7 +52,7 @@ export const projectsData = [
       'Spring Security',
       'Spring Data JPA',
       'OAuth2',
-      'Postgresql',
+      'PostgreSQL',
       'REST',
       'Lombok',
       'Docker',
@@ -87,6 +87,36 @@ export const projectsData = [
   {
     id: 3,
     category: ProjectCategories.DesktopApplication,
+    src: '/project-img/tactikick.png',
+    title: 'Tacti-kick',
+    description:
+      'A tactical analysis platform that visualizes football set-piece strategies using real match data.',
+    sourceUrl: 'https://tactikick.vercel.app/',
+    githubUrl: 'https://github.com/giri-10/tacti-kick',
+    technologyStack: [
+      'React',
+      'Node.js',
+      'Express.js',
+      'PostgreSQL',
+    ],
+    features: [
+      'Interactive Set-Piece Editor: Drag-and-drop interface to position players, set their roles, and design custom set-piece routines.',
+      'Tactic Visualization: Allows analysts or coaches to visually break down team strategies frame by frame.​',
+      'Data-Driven Insights: Utilizes real match data to provide actionable insights and improve team performance.',],
+
+    challenges: [
+      'Data Parsing: Converting raw match JSON data into a visually meaningful pitch representation.​',
+      'Animation & UX: Designing smooth player transitions and intuitive editing controls.​',
+    ],
+    accomplishments: [
+      'Innovative Tooling: Built a unique interface combining sports analytics with user-driven tactical design.​',
+      'Deployment: Live version hosted with Vercel, offering instant access and demo capability.​',
+      'Frontend Focus: Prioritized clean, responsive UI and intuitive controls for a seamless user experience.',
+    ],
+  },
+  {
+    id: 4,
+    category: ProjectCategories.DesktopApplication,
     src: '/project-img/friday.png',
     title: 'F.R.I.D.A.Y',
     description:
@@ -120,33 +150,6 @@ export const projectsData = [
       'Comprehensive Assistant: Developed a multifaceted voice assistant capable of handling information retrieval, system operations, and entertainment.​',
       'User Engagement: Enhanced user interaction through conversational capabilities and real-time feedback.​',
     ],
-  },
-  {
-    id: 4,
-    src: '/project-img/talkspace.png',
-    title: 'Talkspace',
-    description:
-      'A chatroom application for real-time communication, allowing users to join chat rooms and communicate with each other.',
-    sourceUrl: '',
-    githubUrl: 'https://github.com/giri-10/talkspace',
-    technologyStack: [
-      'HTML',
-      'CSS',
-      'JavaScript',
-      'Java',
-      'Spring Boot',
-      'Web Socket',
-    ],
-    features: [
-      'Real-Time Chat: Enables users to join chat rooms and communicate instantly.​',
-      'Responsive UI: Designed for seamless interaction across devices.​',
-    ],
-    challenges: [
-      'Scalability: Ensuring the application can handle increasing user load.​',
-      'Security: Protecting user data and preventing unauthorized access.​',
-    ],
-    accomplishments: [
-      'Full-Stack Development: Built both front-end and back-end components for a complete application.​',    ],
   },
   {
     id: 5,
@@ -286,4 +289,31 @@ export const projectsData = [
       'Code Organization: Structured codebase facilitates easy maintenance and future enhancements.​',
     ],
   },
+  // {
+  //   id: 10,
+  //   src: '/project-img/talkspace.png',
+  //   title: 'Talkspace',
+  //   description:
+  //     'A chatroom application for real-time communication, allowing users to join chat rooms and communicate with each other.',
+  //   sourceUrl: '',
+  //   githubUrl: 'https://github.com/giri-10/talkspace',
+  //   technologyStack: [
+  //     'HTML',
+  //     'CSS',
+  //     'JavaScript',
+  //     'Java',
+  //     'Spring Boot',
+  //     'Web Socket',
+  //   ],
+  //   features: [
+  //     'Real-Time Chat: Enables users to join chat rooms and communicate instantly.​',
+  //     'Responsive UI: Designed for seamless interaction across devices.​',
+  //   ],
+  //   challenges: [
+  //     'Scalability: Ensuring the application can handle increasing user load.​',
+  //     'Security: Protecting user data and preventing unauthorized access.​',
+  //   ],
+  //   accomplishments: [
+  //     'Full-Stack Development: Built both front-end and back-end components for a complete application.​',    ],
+  // },
 ];

@@ -88,7 +88,7 @@ export const ServicesApps = [
   },
   {
     id: 10,
-    title: 'postgresql',
+    title: 'PostgreSQL',
     icon: '/logo/post.png',
     width: 60,
     height: 60,
